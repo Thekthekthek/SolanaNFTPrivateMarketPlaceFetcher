@@ -1,0 +1,22 @@
+{
+  "name": "libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tokenInfo.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.18.3",
+    "@solana/web3.js": "^1.75.0",
+    "api": "^5.0.8"
+  }
+}
